@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    color: white;
+}
+html,body{
+    
+    width: 100%;
+    background-color:#020001;
+}
+#main{
+    width: 100%;
+    position: relative;
+   
+   
+}
+#nav{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    gap: 30%;
+    right: 15%;
+    padding: 25px;
+    font-family: gilroy;
+    z-index: 99999;
+}
+
+#main h1{
+
+    position: absolute;
+    text-transform: uppercase;
+    font-family: "play1";
+    font-weight: 300;
+    font-size: 20px;
+    padding: 25px ;
+    left: 10%;
+    font-family: gilroy;
+    z-index: 99999;
+
+}
+#main span{
+    font-weight: 500;
+    font-size: 25px;
+}
+#nav a{
+     
+text-decoration: none;
+color: rgb(255, 255, 255);
+
+    
+}
+#text{
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%,-50% );
+    position: absolute;
+    text-align: center;
+    z-index: 99999;
+    
+    
+}
+#text h1{
+    font-family: voyage;
+    font-size: 50px;
+    margin: 12px auto;
+}
+#text p{
+    font-size: 10px;
+    margin: 12px;
+    font-family: gilroy;
+}
+#text button{
+    background-color:#4ee5f0;
+    border-radius: 100px;
+    padding: 2px 12px;
+    color: black;
+    border-color:#d2e0e0 ;
+}
+#image img{
+    position: absolute;
+   width: 50%;
+    top: 110%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+
+#nav a:hover{
+   scale: 1.1;
+   text-decoration: underline;
+}
+#text button:hover{
+    scale: 1.1;
+    text-decoration: underline;
+ }
+#bottom{
+  top: 190%;
+
+    position: absolute;
+    width: 100%;
+    display: flex;
+    color: white;
+
+}
+#left {  
+   width: 50%;
+    text-align: right;  
+    border-right: 2px solid rgb(255, 255, 255);
+
+ 
+
+}
+#rt{
+  
+    display: flex;
+    gap: 20px
+    ;
+}
+
+#lt h1{
+    font-family: gilroy;
+    width: 90%;
+    padding-left: 25%
+    ;
+}
+#lt p{
+    width: 100%;
+    padding-right: 10%
+    ;
+    font-family: gilroy;
+    font-size: 10px;
+}
+
+#right {
+    
+width: 50%;
+font-family: gilroy;
+padding-left: 75px;
+
+}
+
+#right p{
+font-size: 10px;
+padding-bottom: 12px;
+
+}
+#main2 {
+    height: 100px;
+    left: 37%;
+    top: 200%;
+    position: absolute;
+    text-align: center;
+}
+#rn{
+    position: absolute;
+   
+    top: 60%;
+    display: flex;
+    gap: 20px
+    ;
+}
